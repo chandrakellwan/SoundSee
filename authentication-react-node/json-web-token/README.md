@@ -1,4 +1,3 @@
-Welcome to SoundSee.
-
-Authentication Using JSON Web Token (JWT)
+Welcome to SoundSee
 =========================================
+
