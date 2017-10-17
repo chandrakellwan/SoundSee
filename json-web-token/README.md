@@ -1,3 +1,3 @@
-Authentication Using JSON Web Token (JWT)
+Welcome to SoundSee
 =========================================
-In this part, we will continue to improve the application and add authentication to it.
+
