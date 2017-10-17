@@ -1,7 +1,7 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const passport = require('passport');
-const config = require('./config');
+const express 		= require('express');
+const bodyParser 	= require('body-parser');
+const passport 		= require('passport');
+const config 		= require('./config');
 
 // connect to the database and load models
 require('./server/models').connect(config.dbUri);
