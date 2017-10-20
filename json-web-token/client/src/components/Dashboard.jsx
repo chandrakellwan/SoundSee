@@ -1,8 +1,11 @@
 import React, { PropTypes } from 'react';
 import { Card, CardTitle, CardText } from 'material-ui/Card';
+import Circles from "./Circles.jsx";
 
 
 const Dashboard = ({ secretData }) => (
+
+<div>	
   <Card className="container">
     <CardTitle
       title="Dashboard"
@@ -11,6 +14,9 @@ const Dashboard = ({ secretData }) => (
 
     {secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>{secretData}</CardText>}
   </Card>
+<Circles />
+</div>
+
 );
 
 Dashboard.propTypes = {
