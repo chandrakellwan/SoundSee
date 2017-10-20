@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node --use-strict index.js",
+    "build": "webpack --config ./webpack.config.js --progress --colors",
     "bundle": "webpack -w"
   },
   "repository": {
