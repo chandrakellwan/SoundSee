@@ -40974,7 +40974,7 @@
 	      { className: 'container' },
 	      _react2.default.createElement(_Card.CardTitle, {
 	        title: 'Dashboard',
-	        subtitle: 'You should get access to this page only after authentication.'
+	        subtitle: 'Click on the black canvas, then press a letter or number key to SoundSee.'
 	      }),
 	      secretData && _react2.default.createElement(
 	        _Card.CardText,
