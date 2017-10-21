@@ -5,17 +5,17 @@ import Circles from "./Circles.jsx";
 
 const Dashboard = ({ secretData }) => (
 
-<div>	
-  <Card className="container">
-    <CardTitle
-      title="Dashboard"
-      subtitle="Click on the black canvas, then press a letter or number key to SoundSee."
-    />
+// <div>	
+//   <Card className="container">
+//     <CardTitle
+//       title="Dashboard"
+//       subtitle="Click on the black canvas, then press a letter or number key to SoundSee."
+//     />
 
-    {secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>{secretData}</CardText>}
-  </Card>
+//     {secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>{secretData}</CardText>}
+//   </Card>
 <Circles />
-</div>
+// </div>
 
 );
 

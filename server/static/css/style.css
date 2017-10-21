@@ -4,14 +4,14 @@ body {
 }
 
 a {
-  color: #00bcd4;
+  color: #1976d2;
   font-weight: bold;
   text-decoration: none;
   transition: color 0.4s;
 }
 
 a:hover {
-  color: #1976d2;
+  color: #00bcd4;
 }
 
 .text-center {
@@ -19,8 +19,9 @@ a:hover {
 }
 
 .top-bar {
-  padding: 10px 15px;
-  margin-bottom: 50px;
+  background: rgba(100, 255, 255, 0.3);
+  padding: 6px 10px 3px;
+  /*margin-bottom: 50px;*/
 }
 .top-bar::after {
   content: '';

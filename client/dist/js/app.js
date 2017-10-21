@@ -35210,7 +35210,7 @@
 	  return _react2.default.createElement(
 	    _Card.Card,
 	    { className: 'container' },
-	    _react2.default.createElement(_Card.CardTitle, { title: 'Welcome to SoundSee', subtitle: 'Log in or Sign up' })
+	    _react2.default.createElement(_Card.CardTitle, { title: 'Welcome to SoundSee', br: true, subtitle: 'Visual Beat Maker' })
 	  );
 	};
 
@@ -40966,23 +40966,20 @@
 
 	var Dashboard = function Dashboard(_ref) {
 	  var secretData = _ref.secretData;
-	  return _react2.default.createElement(
-	    'div',
-	    null,
-	    _react2.default.createElement(
-	      _Card.Card,
-	      { className: 'container' },
-	      _react2.default.createElement(_Card.CardTitle, {
-	        title: 'Dashboard',
-	        subtitle: 'Click on the black canvas, then press a letter or number key to SoundSee.'
-	      }),
-	      secretData && _react2.default.createElement(
-	        _Card.CardText,
-	        { style: { fontSize: '16px', color: 'green' } },
-	        secretData
-	      )
-	    ),
+	  return (
+
+	    // <div>	
+	    //   <Card className="container">
+	    //     <CardTitle
+	    //       title="Dashboard"
+	    //       subtitle="Click on the black canvas, then press a letter or number key to SoundSee."
+	    //     />
+
+	    //     {secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>{secretData}</CardText>}
+	    //   </Card>
 	    _react2.default.createElement(_Circles2.default, null)
+	    // </div>
+
 	  );
 	};
 
@@ -41014,8 +41011,6 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -41026,8 +41021,6 @@
 		_inherits(Circles, _React$Component);
 
 		function Circles(props) {
-			var _this$keyData;
-
 			_classCallCheck(this, Circles);
 
 			var _this = _possibleConstructorReturn(this, (Circles.__proto__ || Object.getPrototypeOf(Circles)).call(this, props));
@@ -41046,14 +41039,8 @@
 			};
 
 			//put all that inline script here
-			_this.keyData = (_this$keyData = {
-				a: {
+			_this.keyData = {
 
-					color: 'red',
-					sound: new Howl({
-						src: './sounds/beat1.mp3'
-					})
-				},
 				1: {
 					sound: new Howl({
 						urls: ['sounds/beat1.mp3']
@@ -41173,88 +41160,105 @@
 						urls: ['sounds/moon.mp3']
 					}),
 					color: 'yellow'
+				},
+				a: {
+					sound: new Howl({
+						urls: ['sounds/pinwheel.mp3']
+					}),
+					color: '#f1c40f'
+				},
+				s: {
+					sound: new Howl({
+						urls: ['sounds/piston-1.mp3']
+					}),
+					color: '#e67e22'
+				},
+				d: {
+					sound: new Howl({
+						urls: ['sounds/piston-2.mp3']
+					}),
+					color: '#e74c3c'
+				},
+				f: {
+					sound: new Howl({
+						urls: ['sounds/kick.mp3']
+					}),
+					color: 'hotpink'
+				},
+				g: {
+					sound: new Howl({
+						urls: ['sounds/prism-2.mp3']
+					}),
+					color: '#f39c12'
+				},
+				h: {
+					sound: new Howl({
+						urls: ['sounds/prism-3.mp3']
+					}),
+					color: '#d35400'
+				},
+				j: {
+					sound: new Howl({
+						urls: ['sounds/splits.mp3']
+					}),
+					color: '#1abc9c'
+				},
+				k: {
+					sound: new Howl({
+						urls: ['sounds/squiggle.mp3']
+					}),
+					color: '#2ecc71'
+				},
+				l: {
+					sound: new Howl({
+						urls: ['sounds/strike.mp3']
+					}),
+					color: '#3498db'
+				},
+				z: {
+					sound: new Howl({
+						urls: ['sounds/hithat.mp3']
+					}),
+					color: '#9b59b6'
+				},
+				x: {
+					sound: new Howl({
+						urls: ['sounds/timer.mp3']
+					}),
+					color: '#34495e'
+				},
+				c: {
+					sound: new Howl({
+						urls: ['sounds/ufo.mp3']
+					}),
+					color: '#16a085'
+				},
+				v: {
+					sound: new Howl({
+						urls: ['sounds/veil.mp3']
+					}),
+					color: '#27ae60'
+				},
+				b: {
+					sound: new Howl({
+						urls: ['sounds/wipe.mp3']
+					}),
+					color: '#2980b9'
+				},
+				n: {
+					sound: new Howl({
+						urls: ['sounds/zig-zag.mp3']
+					}),
+					color: '#8e44ad'
+				},
+				m: {
+					sound: new Howl({
+						urls: ['sounds/moon.mp3']
+					}),
+					color: 'violet'
 				}
-			}, _defineProperty(_this$keyData, 'a', {
-				sound: new Howl({
-					urls: ['sounds/pinwheel.mp3']
-				}),
-				color: '#f1c40f'
-			}), _defineProperty(_this$keyData, 's', {
-				sound: new Howl({
-					urls: ['sounds/piston-1.mp3']
-				}),
-				color: '#e67e22'
-			}), _defineProperty(_this$keyData, 'd', {
-				sound: new Howl({
-					urls: ['sounds/piston-2.mp3']
-				}),
-				color: '#e74c3c'
-			}), _defineProperty(_this$keyData, 'f', {
-				sound: new Howl({
-					urls: ['sounds/kick.mp3']
-				}),
-				color: 'hotpink'
-			}), _defineProperty(_this$keyData, 'g', {
-				sound: new Howl({
-					urls: ['sounds/prism-2.mp3']
-				}),
-				color: '#f39c12'
-			}), _defineProperty(_this$keyData, 'h', {
-				sound: new Howl({
-					urls: ['sounds/prism-3.mp3']
-				}),
-				color: '#d35400'
-			}), _defineProperty(_this$keyData, 'j', {
-				sound: new Howl({
-					urls: ['sounds/splits.mp3']
-				}),
-				color: '#1abc9c'
-			}), _defineProperty(_this$keyData, 'k', {
-				sound: new Howl({
-					urls: ['sounds/squiggle.mp3']
-				}),
-				color: '#2ecc71'
-			}), _defineProperty(_this$keyData, 'l', {
-				sound: new Howl({
-					urls: ['sounds/strike.mp3']
-				}),
-				color: '#3498db'
-			}), _defineProperty(_this$keyData, 'z', {
-				sound: new Howl({
-					urls: ['sounds/hithat.mp3']
-				}),
-				color: '#9b59b6'
-			}), _defineProperty(_this$keyData, 'x', {
-				sound: new Howl({
-					urls: ['sounds/timer.mp3']
-				}),
-				color: '#34495e'
-			}), _defineProperty(_this$keyData, 'c', {
-				sound: new Howl({
-					urls: ['sounds/ufo.mp3']
-				}),
-				color: '#16a085'
-			}), _defineProperty(_this$keyData, 'v', {
-				sound: new Howl({
-					urls: ['sounds/veil.mp3']
-				}),
-				color: '#27ae60'
-			}), _defineProperty(_this$keyData, 'b', {
-				sound: new Howl({
-					urls: ['sounds/wipe.mp3']
-				}),
-				color: '#2980b9'
-			}), _defineProperty(_this$keyData, 'n', {
-				sound: new Howl({
-					urls: ['sounds/zig-zag.mp3']
-				}),
-				color: '#8e44ad'
-			}), _defineProperty(_this$keyData, 'm', {
-				sound: new Howl({
-					urls: ['sounds/moon.mp3']
-				}),
-				color: 'violet'
-			}), _this$keyData);
+
+			};
 			_this.state = {
 				circles: []
 			};
@@ -41302,7 +41306,6 @@
 				return _react2.default.createElement(
 					'div',
 					null,
-					_react2.default.createElement('button', null),
 					_react2.default.createElement('canvas', { onKeyDown: function onKeyDown(e) {
 							return _this3.onKeyDown(e);
 						}, tabIndex: '1', id: 'myCanvas', style: { width: "100%", height: "100%", background: "#000000" } })
@@ -41321,7 +41324,7 @@
 /* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	 * Paper.js v0.11.5 - The Swiss Army Knife of Vector Graphics Scripting.
 	 * http://paperjs.org/
 	 *

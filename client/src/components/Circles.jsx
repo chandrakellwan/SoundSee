@@ -19,13 +19,7 @@ class Circles extends React.Component{
 		
 		//put all that inline script here
 		this.keyData = {
-			a: {
-
-				color: 'red',
-				sound: new Howl({
-				src: './sounds/beat1.mp3'
-				})
-			},
+			
 			1: {
 				sound: new Howl({
 		  		urls: ['sounds/beat1.mp3']
@@ -282,7 +276,7 @@ class Circles extends React.Component{
 
 		return(
 			<div>
-			<button ></button>
+				
 				<canvas onKeyDown={(e) => this.onKeyDown(e)} tabIndex='1' id="myCanvas" style={{width:"100%",height:"100%",background:"#000000"}}></canvas>
 			</div>
 			//the canvas element will be here
