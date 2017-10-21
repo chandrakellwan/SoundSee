@@ -35210,7 +35210,7 @@
 	  return _react2.default.createElement(
 	    _Card.Card,
 	    { className: 'container' },
-	    _react2.default.createElement(_Card.CardTitle, { title: 'React Application', subtitle: 'This is the home page.' })
+	    _react2.default.createElement(_Card.CardTitle, { title: 'Welcome to SoundSee', subtitle: 'Log in or Sign up' })
 	  );
 	};
 
@@ -41088,7 +41088,7 @@
 					sound: new Howl({
 						urls: ['sounds/HickHick.mp3']
 					}),
-					color: 'maroon'
+					color: 'red'
 				},
 				7: {
 					sound: new Howl({
@@ -41107,6 +41107,12 @@
 						urls: ['sounds/tabla1.mp3']
 					}),
 					color: 'purple'
+				},
+				0: {
+					sound: new Howl({
+						urls: ['sounds/bing.mp3']
+					}),
+					color: 'red'
 				},
 				q: {
 					sound: new Howl({
@@ -41166,7 +41172,7 @@
 					sound: new Howl({
 						urls: ['sounds/moon.mp3']
 					}),
-					color: '#2c3e50'
+					color: 'yellow'
 				}
 			}, _defineProperty(_this$keyData, 'a', {
 				sound: new Howl({
@@ -41215,7 +41221,7 @@
 				color: '#3498db'
 			}), _defineProperty(_this$keyData, 'z', {
 				sound: new Howl({
-					urls: ['sounds/suspension.mp3']
+					urls: ['sounds/hithat.mp3']
 				}),
 				color: '#9b59b6'
 			}), _defineProperty(_this$keyData, 'x', {

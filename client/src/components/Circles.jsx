@@ -23,7 +23,7 @@ class Circles extends React.Component{
 
 				color: 'red',
 				sound: new Howl({
-					src: './sounds/beat1.mp3'
+				src: './sounds/beat1.mp3'
 				})
 			},
 			1: {
@@ -60,7 +60,7 @@ class Circles extends React.Component{
 				sound: new Howl({
 		  		urls: ['sounds/HickHick.mp3']
 				}),
-				color: 'maroon'
+				color: 'red'
 			},
 			7: {
 				sound: new Howl({
@@ -79,6 +79,12 @@ class Circles extends React.Component{
 		  		urls: ['sounds/tabla1.mp3']
 				}),
 				color: 'purple'
+			},
+			0: {
+				sound: new Howl({
+		  		urls: ['sounds/bing.mp3']
+				}),
+				color: 'red'
 			},
 			q: {
 				sound: new Howl({
@@ -138,7 +144,7 @@ class Circles extends React.Component{
 				sound: new Howl({
 		  		urls: ['sounds/moon.mp3']
 				}),
-				color: '#2c3e50'
+				color: 'yellow'
 			},
 			a: {
 				sound: new Howl({
@@ -196,7 +202,7 @@ class Circles extends React.Component{
 			},
 			z: {
 				sound: new Howl({
-		  		urls: ['sounds/suspension.mp3']
+		  		urls: ['sounds/hithat.mp3']
 				}),
 				color: '#9b59b6'
 			},
