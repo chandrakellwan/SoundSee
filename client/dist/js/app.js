@@ -41181,13 +41181,13 @@
 				},
 				f: {
 					sound: new Howl({
-						urls: ['sounds/kick.mp3']
+						urls: ['sounds/prism-2.mp3']
 					}),
 					color: 'hotpink'
 				},
 				g: {
 					sound: new Howl({
-						urls: ['sounds/prism-2.mp3']
+						urls: ['sounds/kick.mp3']
 					}),
 					color: '#f39c12'
 				},
