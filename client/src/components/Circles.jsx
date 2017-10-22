@@ -166,7 +166,7 @@ class Circles extends React.Component{
 			},
 			g: {
 				sound: new Howl({
-		  		urls: ['sounds/kick.mp3']
+		  		urls: ['sounds/Kick.mp3']
 				}),
 				color: '#f39c12'
 			},
