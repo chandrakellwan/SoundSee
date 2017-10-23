@@ -41004,7 +41004,7 @@
 					null,
 					_react2.default.createElement(_Circles2.default, null),
 					_react2.default.createElement(_Dialog2.default, {
-						title: 'Click on the black canvas, then press a letter or number key to SoundSee.',
+						title: 'Click the black canvas. Then, press a letter or number key to SoundSee.',
 						open: this.state.open,
 						onRequestClose: this.handleClose
 
