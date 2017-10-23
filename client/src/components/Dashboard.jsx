@@ -38,7 +38,7 @@ class Dashboard extends React.Component {
 			 	<Circles />
 
 			 	<Modal 
-			 		title="Click on the black canvas, then press a letter or number key to SoundSee."
+			 		title="Click the black canvas, then press a letter or number key to SoundSee."
 			 		open= {this.state.open} 
 			 		onRequestClose= {this.handleClose}
 
