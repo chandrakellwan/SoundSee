@@ -1,14 +1,18 @@
 body {
+  background-image: url("/images/homeImage1.png");
+  background-repeat: cover;
+  
   margin: 0;
   font-size: 16px;
-  background: rgba(100, 255, 255, 0.1);
+  /*background: rgba(100, 255, 255, 0.1);*/
 }
 
 a {
   color: #1976d2;
+  background: rgba(100, 255, 255, .1);
   font-weight: bold;
   text-decoration: none;
-  transition: color 0.4s;
+  transition: color 0.3s;
 }
 
 a:hover {
@@ -20,11 +24,12 @@ a:hover {
 }
 
 .top-bar {
-  background: rgba(100, 255, 255, 0.1);
+  background: rgba(100, 255, 255, 1);
   padding: 6px 10px 3px;
   /*margin-bottom: 50px;*/
 }
 .top-bar::after {
+  background: rgba(100, 255, 255, .1);
   content: '';
   display: block;
   clear: both;
@@ -45,6 +50,7 @@ a:hover {
 }
 
 .container {
+  background-color: rgba(100, 255, 255, .9);
   margin: 0 auto;
   text-align: center;
   width: 700px;
