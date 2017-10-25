@@ -1,6 +1,7 @@
 body {
   background-image: url("/images/homeImage1.png");
-  background-repeat: no-repeat, cover;
+  background-size: cover;
+  background-repeat: no-repeat;
   
   margin: 0;
   font-size: 16px;

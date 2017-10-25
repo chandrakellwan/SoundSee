@@ -80,6 +80,30 @@ class Circles extends React.Component{
 				}),
 				color: 'red'
 			},
+			O: {
+				sound: new Howl({
+		  		urls: ['sounds/rip.mp3']
+				}),
+				color: 'red'
+			},	
+			P: {
+				sound: new Howl({
+		  		urls: ['sounds/laugh.mp3']
+				}),
+				color: 'red'
+			},
+			K: {
+				sound: new Howl({
+		  		urls: ['sounds/deploy.mp3']
+				}),
+				color: 'red'
+			},
+			L: {
+				sound: new Howl({
+		  		urls: ['sounds/heroku.mp3']
+				}),
+				color: 'red'
+			},			
 			q: {
 				sound: new Howl({
 		  		urls: ['sounds/bubbles.mp3']
