@@ -41367,7 +41367,7 @@
 					null,
 					_react2.default.createElement('canvas', { onKeyDown: function onKeyDown(e) {
 							return _this3.onKeyDown(e);
-						}, tabIndex: '1', id: 'myCanvas', style: { width: "100%", height: "100%", background: "#000000" } })
+						}, tabIndex: '1', id: 'myCanvas', style: { width: "102%", height: "110%", background: "#000000" } })
 				)
 				//the canvas element will be here
 				;

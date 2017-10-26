@@ -301,7 +301,7 @@ class Circles extends React.Component{
 		return(
 			<div>
 				
-				<canvas onKeyDown={(e) => this.onKeyDown(e)} tabIndex='1' id="myCanvas" style={{width:"100%",height:"100%",background:"#000000"}}></canvas>
+				<canvas onKeyDown={(e) => this.onKeyDown(e)} tabIndex='1' id="myCanvas" style={{width:"102%", height:"110%",background:"#000000"}}></canvas>
 			</div>
 			//the canvas element will be here
 		);
