@@ -84,13 +84,13 @@ class Circles extends React.Component{
 				sound: new Howl({
 		  		urls: ['sounds/rip.mp3']
 				}),
-				color: 'purple'
+				color: 'yellow'
 			},	
 			P: {
 				sound: new Howl({
 		  		urls: ['sounds/laugh.mp3']
 				}),
-				color: 'yellow'
+				color: 'white'
 			},
 			K: {
 				sound: new Howl({
