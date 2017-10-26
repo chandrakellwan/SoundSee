@@ -41140,25 +41140,25 @@
 					sound: new Howl({
 						urls: ['sounds/rip.mp3']
 					}),
-					color: 'red'
+					color: 'yellow'
 				},
 				P: {
 					sound: new Howl({
 						urls: ['sounds/laugh.mp3']
 					}),
-					color: 'red'
+					color: 'white'
 				},
 				K: {
 					sound: new Howl({
 						urls: ['sounds/deploy.mp3']
 					}),
-					color: 'red'
+					color: 'green'
 				},
 				L: {
 					sound: new Howl({
 						urls: ['sounds/heroku.mp3']
 					}),
-					color: 'red'
+					color: 'blue'
 				},
 				q: {
 					sound: new Howl({
