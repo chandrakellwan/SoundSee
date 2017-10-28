@@ -1,7 +1,7 @@
 
 # SoundSee - visual beat machine
 <br>
-This Full Stack application utilizes MERN Stack (Mongoose, Express, React, Node), Material-UI (a set of React components that implement Google's material sesign), Passport (for user-authentication), Howler.js (for sounds), Paper.js and Canvas (for displaying graphics).
+This Full Stack application utilizes MERN Stack (Mongoose, Express, React, Node), Material-UI (a set of React components that implement Google's material design), Passport (for user-authentication), Howler.js (for sounds), Paper.js and Canvas (for displaying graphics).
 
 <br>
 <br>
