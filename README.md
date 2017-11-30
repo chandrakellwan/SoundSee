@@ -4,7 +4,8 @@
 Individual Project:
 <br>
 
-SoundSee is a visual beat maker which turns your computer into a musical instrument. 
+SoundSee is a visual beat maker which turns your computer into a musical instrument.
+
 Brilliantly colored animations and captivating sounds are triggered when keys are pressed on the keyboard.
 
 This Full Stack application utilizes MERN Stack (Mongoose, Express, React, Node), Material-UI (a set of React components that implement Google's material design), Passport (for user-authentication), Howler.js (for sounds), Paper.js and Canvas (for displaying graphics).
