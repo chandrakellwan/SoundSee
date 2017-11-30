@@ -7,7 +7,7 @@ SoundSee is a visual beat maker which turns your computer into a musical instrum
 
 Brilliantly colored animations and captivating sounds are triggered when keys are pressed on the keyboard.
 
-This Full Stack application utilizes: 
+This Full-Stack application utilizes: 
 
 MERN Stack (Mongoose, Express, React, Node)<br>
 Material-UI (a set of React components that implement Google's material design)<br>
