@@ -11,8 +11,8 @@ This Full Stack application utilizes:
 
 MERN Stack (Mongoose, Express, React, Node)<br>
 Material-UI (a set of React components that implement Google's material design)<br>
-Passport (for user-authentication)
-Howler.js (for sounds)
+Passport (for user-authentication)<br>
+Howler.js (for sounds)<br>
 Paper.js and Canvas (for displaying graphics).
 
 https://secure-fortress-15241.herokuapp.com/
