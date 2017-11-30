@@ -1,7 +1,7 @@
 
 # SoundSee - visual beat maker
 
-Individual Project:
+Individual Project: Focused on simplicity of User Experience
 
 SoundSee is a visual beat maker which turns your computer into a musical instrument.
 
