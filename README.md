@@ -5,6 +5,8 @@ Individual Project:
 
 SoundSee is a visual beat maker which turns your computer into a musical instrument.
 
+The user is first prompted to enter or create a username and password. The app then authenticates the user.
+
 Brilliantly colored animations and captivating sounds are triggered when keys are pressed on the keyboard.
 
 This Full-Stack application utilizes: 
