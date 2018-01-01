@@ -21,5 +21,5 @@ Paper.js and Canvas (for displaying graphics).
 
 App link: https://secure-fortress-15241.herokuapp.com/
 
-![soundseehome](https://user-images.githubusercontent.com/25890329/32032530-b69344ee-b9d5-11e7-97a8-5a65b633d879.gif)
+![soundseehome](https://user-images.githubusercontent.com/25890329/34464966-159f982e-ee66-11e7-8fd6-7c4ae0d55f1c.gif)
 
