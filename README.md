@@ -11,11 +11,11 @@ Brilliantly colored animations and captivating sounds are triggered when keys ar
 
 This Full-Stack application utilizes: 
 
-MERN Stack (Mongoose, Express, React, Node)<br>
-Material-UI (a set of React components that implement Google's material design)<br>
-Passport (for user-authentication)<br>
-Howler.js (for sounds)<br>
-Paper.js and Canvas (for displaying graphics).
+<strong>MERN Stack</strong> (Mongoose, Express, React, Node)<br>
+<strong>Material-UI</strong> (a set of React components that implement Google's material design)<br>
+<strong>Passport</strong> (for user-authentication)<br>
+<strong>Howler.js</strong> (for sounds)<br>
+  <strong>Paper.js</strong> and Canvas</strong> (for displaying graphics).
 
 *This application is still in development stage. 
 
