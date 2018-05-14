@@ -15,7 +15,7 @@ This Full-Stack application utilizes:
 <strong>Material-UI</strong> (a set of React components that implement Google's material design)<br>
 <strong>Passport</strong> (for user-authentication)<br>
 <strong>Howler.js</strong> (for sounds)<br>
-<strong>Paper.js and Canvas</strong> (for displaying graphics).
+<strong>Paper.js and Canvas</strong> (for displaying graphics)
 
 *This application is still in development stage. 
 
