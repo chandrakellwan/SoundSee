@@ -1,5 +1,5 @@
 
-# SoundSee - visual beat maker
+# SoundSee - Visual Beat Maker
 
 <strong>Focused on simplicity of UX/UI design</strong>
 
