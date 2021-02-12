@@ -21,5 +21,5 @@ This Full-Stack application utilizes:
 
 App link: https://secure-fortress-15241.herokuapp.com/
 
-[soundseehome](https://user-images.githubusercontent.com/25890329/34464966-159f982e-ee66-11e7-8fd6-7c4ae0d55f1c.gif)
+![soundseehome](https://user-images.githubusercontent.com/25890329/34464966-159f982e-ee66-11e7-8fd6-7c4ae0d55f1c.gif)
 
