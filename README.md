@@ -17,7 +17,7 @@ This Full-Stack application utilizes:
 <strong>Howler.js</strong> (for sounds)<br>
 <strong>Paper.js and Canvas</strong> (for displaying graphics)
 
-*This application is still in development stage. 
+<!-- *This application is still in development stage. -->
 
 <!-- App link: https://secure-fortress-15241.herokuapp.com -->
 
