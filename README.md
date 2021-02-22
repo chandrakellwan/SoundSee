@@ -3,7 +3,7 @@
 
 <strong>Focused on simplicity of UX/UI design</strong>
 
-SoundSee is a visual beat maker which turns your computer into a musical instrument.
+SoundSee is a visual beat maker that turns your computer into a musical instrument.
 
 The user is first prompted to enter or create a username and password. The app then authenticates the user.
 
